@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?> class="no-js no-svg">
+<head>
+<meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+<link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/materialize.min.css"  media="screen,projection"/>
+
+<link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css"  media="screen,projection"/>
+
+<link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/style.css" media="screen,projection">
+
+</head>
+
+<body <?php body_class(); ?> >
+
+<!--NAVBAR-->
+<nav id="nav" class="light-blue darken-4 z-depth-3">
+    <div class="containernav">
+        <div class="nav-wrapper">
+            <a href="<?php echo home_url(); ?>" class="brand-logo white-text">
+                <img class="responsive-img" src="<?php bloginfo( 'template_url')?>/assets/images/Logo-Klein.png" style="padding-left: 40px; padding-right: 40px;">
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down"> 
+                <?php 
+                $args = array(
+                    'title_li'        => 0,
+                ); 
+
+                wp_list_pages( $args ); ?>
+
+            </ul>
+        </div>
+    </div>
+</nav>    
+<!--END NAVBAR-->
