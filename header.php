@@ -15,7 +15,7 @@
 
 </head>
 
-<body <?php body_class(); ?> >
+<body class="grey lighten-4" >
 
 <!--NAVBAR-->
 <nav id="nav" class="light-blue darken-4 z-depth-3">
