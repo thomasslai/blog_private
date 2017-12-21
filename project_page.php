@@ -2,9 +2,17 @@
 <?php get_header() ?>
 <?php get_the_tags(); ?>
 
-<div style="text-align: center;">
-<h1 class="thin"> Projekte </h1>
+<!--TITELBILD-->
+<div class="parallax-container">
+    <div class="parallax">
+        <img src="<?php bloginfo('template_url')?>/assets/images/projects.jpg" style="width: 100vw; height: auto;">
+    </div>
+        <div class="caption center-align headline">
+            <h2 class="white-text light">Projekte</h2>
+        </div>
 </div>
+<!--END TITELBILD-->
+
 
 <div class="card horizontal" style="margin-bottom: 6vh;" >
     <div class="card-stacked" >
