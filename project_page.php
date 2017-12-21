@@ -14,19 +14,22 @@
 <!--END TITELBILD-->
 
 
-<div class="card horizontal" style="margin-bottom: 6vh;" >
-    <div class="card-stacked" >
-        <div style="text-align: center; padding: 2vh;" >
-        <div>
-            <h3 class="thin">Ilias</h3>
+<div class="card horizontal" style="margin-bottom: 6vh;">
+<div class="card-stacked" >
+    <div class="card-content">
+        <div style="text-align: center">
+            <h3 class="thin">edX</h3>
+            <span class="light">
+            Ilias ist der Name der Software, die die Basis unseres Elearning Portals darstellt. 
+            Mit einer Reihe von Funktionen bietet das Ilias den Studierenden die Möglichkeit schnell und einfach auf Lernmaterialien zuzugreifen und mit Lehrpersonen und Kommilitonen direkt in Kontakt zu treten.
+            </span>
         </div>
-        </div>
-        <div class="card-content">
-            <div class="row">
-            <?php echo do_shortcode("[ic_add_posts tag='ilias' template='single_project_template.php' showposts='3']"); ?>
-            </div>
+        <div style="margin-bottom: 7vh;" class="divider"></div>
+        <div class="row">
+        <?php echo do_shortcode("[ic_add_posts tag='ilias' template='single_project_template.php' showposts='3']"); ?>
         </div>
     </div>
+</div>
 </div>
 
 
@@ -36,6 +39,9 @@
         <div class="card-content">
             <div style="text-align: center">
                 <h3 class="thin">PO App</h3>
+                <span class="light">
+
+                </span>
             </div>
             <div style="margin-bottom: 7vh;" class="divider"></div>
             <div class="row">
@@ -51,6 +57,9 @@
         <div class="card-content">
             <div style="text-align: center">
                 <h3 class="thin">edX</h3>
+                <span class="light">
+                edX ist, wie das Ilias, ein weiteres Lernmanagementsystem. Derzeit untersuchen wir dessen Möglichkeiten um unsere Diensten weiter zu verbessern.
+                </span>
             </div>
             <div style="margin-bottom: 7vh;" class="divider"></div>
             <div class="row">
@@ -66,6 +75,9 @@
         <div class="card-content">
             <div style="text-align: center">
                 <h3 class="thin">TinyGU</h3>
+                <span class="light">
+                Unter tinygu.de findet sich der von uns entwickelte URL-Shortener der Goethe Universität Frankfurt. Mit tinyGU.de können universitätsinterne URLs auf Knopfdruck verkürzt werden, sodass die Verbreitung des Links vereinfacht wird.
+                </span>
             </div>
             <div style="margin-bottom: 7vh;" class="divider"></div>
             <div class="row">
