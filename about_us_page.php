@@ -4,14 +4,14 @@
 <!--TITELBILD-->
 <div class="parallax-container">
     <div class="parallax">
-        <img src="<?php bloginfo('template_url')?>/assets/images/UD4-1.jpg">
+        <img src="<?php bloginfo('template_url')?>/assets/images/Teamfoto2016.jpg" style="width: 100vw; height: auto;">
     </div>
         <div class="caption center-align headline">
             <h2 class="white-text light">Über Uns</h2>
         </div>
 </div>
 <!--END TITELBILD-->
-
+<div class="white">
 <div class="container" style="padding-top: 5vh; padding-bottom: 5vh;">
 
 <div>
@@ -34,5 +34,5 @@ Einzig nicht studentisches Mitglied in folgender Liste ist Professor Lüdde, der
     Mitglieder
 </span>
 </div>
-
+</div>
 <?php get_footer() ?>
