@@ -1,4 +1,4 @@
-<?php /* Template Name: ProjectPage */ ?>
+<?php /* Template Name: ProjectPageTemplate */ ?>
 <?php get_header() ?>
 <?php get_the_tags(); ?>
 

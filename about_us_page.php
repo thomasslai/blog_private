@@ -1,5 +1,6 @@
-<?php /* Template Name: AboutUsTemplate */ ?>
+<?php /* Template Name: AboutUsPageTemplate */ ?>
 <?php get_header() ?>
+<?php include 'member_card.php' ?>
 
 <!--TITELBILD-->
 <div class="parallax-container">
@@ -33,6 +34,11 @@ Einzig nicht studentisches Mitglied in folgender Liste ist Professor Lüdde, der
 <span class="thin" style="font-size: 250%;">
     Mitglieder
 </span>
+<!-- Member Cards Display -->
+<div id="member_div" class="row">
+    <?php member_card('Hendrik', 'Edelmann', 18, 'Hier steht etwas über Hendrik'); ?>
+</div>
+
 </div>
 </div>
 <?php get_footer() ?>
