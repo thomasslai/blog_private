@@ -26,13 +26,13 @@
             </a>
             <ul id="nav-mobile" class="right hide-on-med-and-down"> 
                 <?php 
-                $args = array(
-                    'title_li'        => 0,
-                ); 
-
+                $args = array('title_li' => 0,); 
                 wp_list_pages( $args ); ?>
-
             </ul>
+            <ul id="slide-out" class="side-nav hide-on-large-only">
+                <?php $args = array('title_li' => 0,); wp_list_pages( $args ); ?>
+            </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse hide-on-large-only"><i class="material-icons">menu</i></a>
         </div>
     </div>
 </nav>    

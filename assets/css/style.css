@@ -46,10 +46,10 @@
 
 @media only screen and (min-width: 600px) {
     .headline {
-        padding-top: 32vh;
+        padding-top: 14vh;
     }
     .parallax-container {    
-        height: 95vh;
+        height: 60vh;
     }
 
 }
@@ -150,12 +150,6 @@ div.containernav {
 
 #single-parallax {
     height: 400px;
-}
-
-@media only screen and (min-width: 600px) {
-    .parallax-container {    
-        height: 95vh;
-    }
 }
 
 

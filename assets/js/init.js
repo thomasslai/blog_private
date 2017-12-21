@@ -6,3 +6,8 @@ $(document).ready(function(){
     $('.materialboxed').materialbox();
   });
 
+$(".button-collapse").sideNav(
+  {
+    menuWidth: 250,
+  }
+);
