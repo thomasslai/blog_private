@@ -9,8 +9,8 @@
                 <span class="card-title"><?php the_title() ?></span>
                 <span style="font-size: medium;"><?php the_excerpt(); ?></span>
             </div>
-            <div class="card-action">
-            <a href="#">Mehr</a>
+            <div class="card-action" href="<?php the_permalink()?>">
+            <a href="<?php the_permalink()?>">Mehr</a>
             </div>
         </div>
     </div>

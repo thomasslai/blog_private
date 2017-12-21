@@ -7,12 +7,10 @@ get_header();
     <div class="parallax">
         <img src="<?php bloginfo('template_url')?>/assets/images/UD4-1.jpg">
     </div>
-    <!-- <div style="height: 100vh; overflow: hidden;" class="transparent-grey"> -->
-        <div id="headline" class="caption center-align">
-            <h2 id="headline-text" class="white-text light">PhysikOnline Blog</h2>
+        <div class="caption center-align headline">
+            <h2 class="white-text light">PhysikOnline Blog</h2>
             <h5 class="light grey-text text-lighten-3">Alles rund um unsere Projekte, wer wir sind und was wir vorhaben.</h5>
         </div>
-    <!-- </div> -->
 </div>
 <!--END TITELBILD-->
 

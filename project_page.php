@@ -8,8 +8,10 @@
 
 <div class="card horizontal" style="margin-bottom: 6vh;" >
     <div class="card-stacked" >
-        <div style="text-align: center; padding: 2vh;">
+        <div style="text-align: center; padding: 2vh;" >
+        <div>
             <h3 class="thin">Ilias</h3>
+        </div>
         </div>
         <div class="card-content">
             <div class="row">

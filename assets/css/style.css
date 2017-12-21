@@ -4,7 +4,7 @@
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
-    #headline {
+    .headline {
         padding-top: 80px;
     }
     
@@ -45,7 +45,7 @@
 }
 
 @media only screen and (min-width: 600px) {
-    #headline {
+    .headline {
         padding-top: 32vh;
     }
     .parallax-container {    
