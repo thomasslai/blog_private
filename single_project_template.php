@@ -1,17 +1,9 @@
 
-<div class="col s12 m4">            
-    <div class="card horizontal">
-        <div style="width: 6vw; height: 100%; overflow: hidden;">
-        <img style="height: 55vh; width: auto; margin-bottom: -1.5vh;" src="<?php the_post_thumbnail_url();?>">
-        </div>
-        <div class="card-stacked">
-            <div class="card-content">
-                <span class="card-title"><?php the_title() ?></span>
-                <span style="font-size: medium;"><?php the_excerpt(); ?></span>
-            </div>
-            <div class="card-action" href="<?php the_permalink()?>">
-            <a href="<?php the_permalink()?>">Mehr</a>
-            </div>
+<div class="carousel-item white-text" href="<?php the_permalink();?>" style="background-image: url(<?php the_post_thumbnail_url();?>)">
+    <div class="row">
+        <div class="col s12 m7 l5" style="height: 100vh; background-color: rgba(0,0,0,0.5); padding: 4vh;">
+        <span class="card-title"><?php the_title();?></span>
+        <span class="light" style="font-size: medium;"><?php the_excerpt(); ?></span>
         </div>
     </div>
 </div>

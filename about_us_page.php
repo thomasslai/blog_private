@@ -5,7 +5,7 @@
 <!--TITELBILD-->
 <div class="parallax-container">
     <div class="parallax">
-        <img src="<?php bloginfo('template_url')?>/assets/images/Teamfoto2016.jpg" style="width: 100vw; height: auto;">
+        <img src="<?php bloginfo('template_url')?>/assets/images/Teamfoto2016.jpg" style="min-width: 100vw; max-width: 120vw; height: auto;">
     </div>
         <div class="caption center-align headline">
             <h2 class="white-text light">Über Uns</h2>

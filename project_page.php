@@ -13,82 +13,122 @@
 </div>
 <!--END TITELBILD-->
 
+<div style="margin: 5vw;" >
 
 <div class="card horizontal" style="margin-bottom: 6vh;">
 <div class="card-stacked" >
     <div class="card-content">
-        <div style="text-align: center">
-            <h3 class="thin">edX</h3>
-            <span class="light">
-            Ilias ist der Name der Software, die die Basis unseres Elearning Portals darstellt. 
-            Mit einer Reihe von Funktionen bietet das Ilias den Studierenden die Möglichkeit schnell und einfach auf Lernmaterialien zuzugreifen und mit Lehrpersonen und Kommilitonen direkt in Kontakt zu treten.
-            </span>
-        </div>
-        <div style="margin-bottom: 7vh;" class="divider"></div>
         <div class="row">
-        <?php echo do_shortcode("[ic_add_posts tag='ilias' template='single_project_template.php' showposts='3']"); ?>
-        </div>
-    </div>
-</div>
-</div>
-
-
-
-<div class="card horizontal" style="margin-bottom: 6vh;">
-    <div class="card-stacked" >
-        <div class="card-content">
-            <div style="text-align: center">
-                <h3 class="thin">PO App</h3>
-                <span class="light">
-
-                </span>
+            <div class="col s12 m5">
+                <div style="text-align: center">
+                    <div style="margin-bottom: 4vh;">
+                    <h3 class="thin">Ilias</h3>
+                    </div>
+                    <div class="divider" style="margin: 3vh;"></div>
+                    <div style="padding: 5vh;">
+                    <span class="light">
+                    Ilias ist der Name der Software, die die Basis unseres Elearning Portals darstellt. 
+                    Mit einer Reihe von Funktionen bietet das Ilias den Studierenden die Möglichkeit schnell und einfach auf Lernmaterialien zuzugreifen und mit Lehrpersonen und Kommilitonen direkt in Kontakt zu treten.
+                    </span>
+                    </div>
+                </div>
             </div>
-            <div style="margin-bottom: 7vh;" class="divider"></div>
-            <div class="row">
-            <?php echo do_shortcode("[ic_add_posts tag='poapp' template='single_project_template.php' showposts='3']"); ?>
+            <div class="col s12 m7">
+                <div class="carousel blue carousel-slider" data-indicators="true">
+                    <?php echo do_shortcode("[ic_add_posts tag='ilias' template='single_project_template.php' showposts='3']"); ?>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
-
-<div class="card horizontal" style="margin-bottom: 6vh;">
-    <div class="card-stacked" >
-        <div class="card-content">
-            <div style="text-align: center">
-                <h3 class="thin">edX</h3>
-                <span class="light">
-                edX ist, wie das Ilias, ein weiteres Lernmanagementsystem. Derzeit untersuchen wir dessen Möglichkeiten um unsere Diensten weiter zu verbessern.
-                </span>
-            </div>
-            <div style="margin-bottom: 7vh;" class="divider"></div>
-            <div class="row">
-            <?php echo do_shortcode("[ic_add_posts tag='edx' template='single_project_template.php' showposts='3']"); ?>
-            </div>
-        </div>
-    </div>
 </div>
 
 
 <div class="card horizontal" style="margin-bottom: 6vh;">
-    <div class="card-stacked" >
-        <div class="card-content">
-            <div style="text-align: center">
-                <h3 class="thin">TinyGU</h3>
-                <span class="light">
-                Unter tinygu.de findet sich der von uns entwickelte URL-Shortener der Goethe Universität Frankfurt. Mit tinyGU.de können universitätsinterne URLs auf Knopfdruck verkürzt werden, sodass die Verbreitung des Links vereinfacht wird.
-                </span>
+<div class="card-stacked" >
+    <div class="card-content">
+        <div class="row">
+            <div class="col s12 m5">
+                <div style="text-align: center">
+                    <div style="margin-bottom: 4vh;">
+                    <h3 class="thin">PO App</h3>
+                    </div>
+                    <div class="divider" style="margin: 3vh;"></div>
+                    <div style="padding: 5vh;">
+                    <span class="light">
+                        Irgendwas über die PO App
+                    </span>
+                    </div>
+                </div>
             </div>
-            <div style="margin-bottom: 7vh;" class="divider"></div>
-            <div class="row">
-            <?php echo do_shortcode("[ic_add_posts tag='tinygu' template='single_project_template.php' showposts='3']") ?>
+            <div class="col s12 m7">
+                <div class="carousel blue carousel-slider" data-indicators="true">
+                    <?php echo do_shortcode("[ic_add_posts tag='poapp' template='single_project_template.php' showposts='3']"); ?>
+                </div>
             </div>
         </div>
     </div>
 </div>
+</div>
+
+<div class="card horizontal" style="margin-bottom: 6vh;">
+<div class="card-stacked" >
+    <div class="card-content">
+        <div class="row">
+            <div class="col s12 m5">
+                <div style="text-align: center">
+                    <div style="margin-bottom: 4vh;">
+                    <h3 class="thin">TinyGU.de</h3>
+                    </div>
+                    <div class="divider" style="margin: 3vh;"></div>
+                    <div style="padding: 5vh;">
+                    <span class="light">
+                        Etwas über TinyGU.de
+                    </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m7">
+                <div class="carousel blue carousel-slider" data-indicators="true">
+                    <?php echo do_shortcode("[ic_add_posts tag='tinygu' template='single_project_template.php' showposts='3']"); ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="card horizontal" style="margin-bottom: 6vh;">
+<div class="card-stacked" >
+    <div class="card-content">
+        <div class="row">
+            <div class="col s12 m5">
+                <div style="text-align: center">
+                    <div style="margin-bottom: 4vh;">
+                    <h3 class="thin">edX</h3>
+                    </div>
+                    <div class="divider" style="margin: 3vh;"></div>
+                    <div style="padding: 5vh;">
+                    <span class="light">
+                        Etwas über edX
+                    </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m7">
+                <div class="carousel blue carousel-slider" data-indicators="true">
+                    <?php echo do_shortcode("[ic_add_posts tag='edx' template='single_project_template.php' showposts='3']"); ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
 
 
 <div style="height: 10vh;"> </div>
 
+</div>
 
 <?php get_footer() ?>
