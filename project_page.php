@@ -35,8 +35,18 @@
             </div>
             <div class="col s12 m7">
                 <div class="carousel blue carousel-slider" data-indicators="true">
+                <div class="carousel-fixed-item right row">
+                    <div class="col m1 offset-m10" style="background-color: rgba(255,255,255,0.5);">
+                        <i class="center material-icons waves-effect waves-light" onclick="$('.carousel').carousel('prev');">chevron_left</i>
+                    </div>
+                    <div class="col m1" style="background-color: rgba(255,255,255,0.5);">
+                        <i class="center material-icons waves-effect waves-light" onclick="$('.carousel').carousel('next');">chevron_right</i>
+                    </div>
+                    <!-- </div> -->
+                </div>
                     <?php echo do_shortcode("[ic_add_posts tag='ilias' template='single_project_template.php' showposts='3']"); ?>
                 </div>
+
             </div>
         </div>
     </div>
