@@ -9,11 +9,15 @@
     }
     
     .parallax-container {    
-        height: 75vh;
+        height: 50vh;
     }
 }
 
 @media only screen and (max-width: 425px) {
+
+    .single_project_excerpt {
+        font-size: 10px;
+    }
 
     .article {
         padding: 10px;
@@ -89,6 +93,10 @@
 
 @media only screen and (min-width: 425px) { 
     
+    .single_project_excerpt {
+        font-size: medium;
+    }
+
     .thumbnail {
         min-width: 32vw;
         max-width: 70vw;

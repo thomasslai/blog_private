@@ -19,7 +19,7 @@
 <div class="card-stacked" >
     <div class="card-content">
         <div class="row">
-            <div class="col s12 m5">
+            <div class="col s12 m12 l5">
                 <div style="text-align: center">
                     <div style="margin-bottom: 4vh;">
                     <h3 class="thin">Ilias</h3>
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col s12 m7">
+            <div class="col s12 m12 l7">
                 <div class="carousel blue carousel-slider" data-indicators="true">
                     <div class="carousel-fixed-item right row">
                         <div class="col m1 offset-m10" style="background-color: rgba(255,255,255,0.7);">
@@ -57,7 +57,7 @@
 <div class="card-stacked" >
     <div class="card-content">
         <div class="row">
-            <div class="col s12 m5">
+            <div class="col s12 m12 l5">
                 <div style="text-align: center">
                     <div style="margin-bottom: 4vh;">
                     <h3 class="thin">PO App</h3>
@@ -70,7 +70,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col s12 m7">
+            <div class="col s12 m12 l7">
                 <div class="carousel blue carousel-slider" data-indicators="true">
                 <div class="carousel-fixed-item right row">
                         <div class="col m1 offset-m10" style="background-color: rgba(255,255,255,0.7);">
@@ -92,7 +92,7 @@
 <div class="card-stacked" >
     <div class="card-content">
         <div class="row">
-            <div class="col s12 m5">
+            <div class="col s12 m12 l5">
                 <div style="text-align: center">
                     <div style="margin-bottom: 4vh;">
                     <h3 class="thin">TinyGU.de</h3>
@@ -105,7 +105,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col s12 m7">
+            <div class="col s12 m12 l7">
                 <div class="carousel blue carousel-slider" data-indicators="true">
                 <div class="carousel-fixed-item right row">
                         <div class="col m1 offset-m10" style="background-color: rgba(255,255,255,0.7);">
@@ -127,7 +127,7 @@
 <div class="card-stacked" >
     <div class="card-content">
         <div class="row">
-            <div class="col s12 m5">
+            <div class="col s12 m12 l5">
                 <div style="text-align: center">
                     <div style="margin-bottom: 4vh;">
                     <h3 class="thin">edX</h3>
@@ -140,7 +140,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col s12 m7">
+            <div class="col s12 m12 l7">
                 <div class="carousel blue carousel-slider" data-indicators="true">
                 <div class="carousel-fixed-item right row">
                         <div class="col m1 offset-m10" style="background-color: rgba(255,255,255,0.7);">
