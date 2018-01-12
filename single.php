@@ -8,11 +8,11 @@
                 <div class="article">
                     <h3 class="thin"><?php the_title(); ?></h3>
                     <div id="meta">
-                    <span id="subtitle" class="thin small"> Von <?php the_author(); ?>, &emsp;  <i class="material-icons tiny thin">access_time</i>  <?php the_date('d.m.Y'); ?> </span>
+                        <span id="subtitle" class="thin small"> Von <?php the_author(); ?>, &emsp;  <i class="material-icons tiny thin">access_time</i>  <?php the_date('d.m.Y'); ?> </span>
                     </div>  
-                    <p class="light contentfontsize"> 
-                    <?php the_content(); ?> 
-                    </p>
+                    <span class="light" style="line-height: 1.2;">
+                        <?php the_content(); ?> 
+                    </span>
                 </div>
             </div>
         </div>
