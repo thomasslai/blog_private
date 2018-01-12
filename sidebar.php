@@ -1,6 +1,6 @@
 <!-- Sidebar -->
 
-<div class="col s12 m12 l3">
+<div class="col s12 m6 l3">
     <div class="card">
         <div class="card-content">
             <p>
@@ -13,7 +13,7 @@
     </div>
 </div>
 
-<div class="col s12 m12 l3">
+<div class="col s12 m6 l3">
     <div class="card">
         <div class="card-content">
             <span class="card-title">Tags</span>

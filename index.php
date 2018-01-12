@@ -24,37 +24,69 @@ get_header();
 Neueste Beiträge
 </h3>
 </div> 
+
+<div class="hide-on-large-only"> 
+<?php get_sidebar() ?>
+</div>
+
 <div id="Main" class="col s12 m12 l9">
  <?php if (have_posts()) : while (have_posts()) : the_post(); ?>    
  
-    <!-- CARD     -->
-    <div class="card horizontal" >
-        <div class="thumbnaildiv">
-            <?php  if( has_post_thumbnail() ): ?>
-                <img class="thumbnail" src="<?php the_post_thumbnail_url() ?>" >
-            <?php endif; ?>
-        </div>
-        <div class="card-stacked" >
-            <div class="card-content">
-                <h4 class="light"> 
-                <?php the_title(); ?>
-                </h4>
-                <span class="light excerptfontsize">
-                <?php the_excerpt(); ?>
-                <br><br>
-                <a href="<?php the_permalink()?>"> mehr.. </a>
-                </span>
+
+ <div class="card black-text" href="<?php the_permalink();?>" style="background-image: url(<?php the_post_thumbnail_url();?>); background-repeat: no-repeat; background-position: center; background-size: cover; overflow: hidden; display: inline-block;">
+    <div class="row">
+        <div class="col s12 m7 offset-m5 l6 offset-l6" style="background-color: rgba(255,255,255,1); padding: 4vh;">
+            <a class="black-text" href="<?php the_permalink()?>"><span class="card-title"><?php the_title();?></span></a>
+            <span class="light single_project_excerpt"><?php the_excerpt(); ?></span>
+            <br>
+            <a href="<?php the_permalink()?>"> mehr.. </a>
+            <br>
+            <br>
+            </span>
+            <div class="divider grey lighten-2" style="margin-bottom: 3vh;"></div>
+            <div style="padding: 1vh;">
+                <?php $post_tags = get_the_tags(); if ( $post_tags ) {
+                    foreach( $post_tags as $tag ) {
+                    echo '<div class="chip grey lighten-3"><a href="' . get_tag_link( $tag ) . '">' . $tag->name . '</a></div> '; 
+                        }
+                } ?>
             </div>
         </div>
     </div>
+</div>
     <!-- END CARD -->
-     <?php get_the_tags(); ?>       
      <?php endwhile; endif; ?>  
 </div> 
 <!-- END MAIN -->
 
 <!--SIDEBAR-->
-<?php get_sidebar() ?>
+<?php get_the_tags(); ?>  
+<div class="hide-on-med-and-down"> 
+<div class="col s12 m6 l3">
+    <div class="card">
+        <div class="card-content">
+            <p>
+            <form method="get" id="searchform" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+               <input type="text" value="<?php echo wp_specialchars($s, 1); ?>" name="s" id="s" />
+               <input class="waves-effect waves-teal btn-flat center" type="submit" id="search_submit" value="Suchen" style="margin: auto; width: 100%;" />
+            </form>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="col s12 m6 l3">
+    <div class="card">
+        <div class="card-content">
+            <span class="card-title">Tags</span>
+            <?php if ( function_exists( 'wp_tag_cloud' ) ) : ?>
+                <div class="chip"><?php wp_tag_cloud( 'smallest=10&largest=10&separator=</div> <div class="chip">' ); ?>
+                </div>
+            <?php endif; ?>
+            <br><br>
+        </div>
+    </div>
+</div>
+</div>
 </div>        
 </div>     
 
