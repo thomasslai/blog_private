@@ -17,6 +17,12 @@
 
 <body class="grey lighten-4" >
 
+
+<?php function for_whatever_reason_I_need_a_function_for_this( $length ) {
+    return 43;
+}
+add_filter( 'excerpt_length', 'for_whatever_reason_I_need_a_function_for_this'); ?>
+
 <!--NAVBAR-->
 <nav id="nav" class="light-blue darken-4 z-depth-3">
     <div class="containernav">

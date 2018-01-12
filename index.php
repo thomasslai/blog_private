@@ -2,6 +2,7 @@
 get_header();
 ?>
 
+
 <!--TITELBILD-->
 <div class="parallax-container">
     <div class="parallax">
@@ -31,7 +32,6 @@ Neueste Beiträge
 
 <div id="Main" class="col s12 m12 l9">
  <?php if (have_posts()) : while (have_posts()) : the_post(); ?>    
- 
 
  <div class="card black-text" href="<?php the_permalink();?>" style="background-image: url(<?php the_post_thumbnail_url();?>); background-repeat: no-repeat; background-position: center; background-size: cover; overflow: hidden; display: inline-block;">
     <div class="row">
