@@ -34,13 +34,13 @@
                 </div>
             </div>
             <div class="col s12 m12 l7">
-                <div class="carousel blue carousel-slider" data-indicators="true" duration="100">
+                <div id="ilias-carousel" class="carousel blue darken-2 carousel-slider" data-indicators="true" duration="100">
                     <div class="carousel-fixed-item right row">
                         <div class="col m1 offset-m10" style="background-color: rgba(255,255,255,0.7);">
-                            <i class="center material-icons waves-effect waves-light" onclick="$('.carousel').carousel('prev');">chevron_left</i>
+                            <i class="center material-icons waves-effect waves-light" onclick="$('#ilias-carousel').carousel('prev');">chevron_left</i>
                         </div>
                         <div class="col m1" style="background-color: rgba(255,255,255,0.7);">
-                            <i class="center material-icons waves-effect waves-light" onclick="$('.carousel').carousel('next');">chevron_right</i>
+                            <i class="center material-icons waves-effect waves-light" onclick="$('#ilias-carousel').carousel('next');">chevron_right</i>
                         </div>
                     </div>
                     <?php echo do_shortcode("[ic_add_posts tag='ilias' template='single_project_template.php' showposts='3']"); ?>
@@ -71,13 +71,13 @@
                 </div>
             </div>
             <div class="col s12 m12 l7">
-                <div class="carousel blue carousel-slider" data-indicators="true">
+                <div id="poapp-carousel" class="carousel indigo carousel-slider" data-indicators="true">
                 <div class="carousel-fixed-item right row">
                         <div class="col m1 offset-m10" style="background-color: rgba(255,255,255,0.7);">
-                            <i class="center material-icons waves-effect waves-light" onclick="$('.carousel').carousel('prev');">chevron_left</i>
+                            <i class="center material-icons waves-effect waves-light" onclick="$('#poapp-carousel').carousel('prev');">chevron_left</i>
                         </div>
                         <div class="col m1" style="background-color: rgba(255,255,255,0.7);">
-                            <i class="center material-icons waves-effect waves-light" onclick="$('.carousel').carousel('next');">chevron_right</i>
+                            <i class="center material-icons waves-effect waves-light" onclick="$('#poapp-carousel').carousel('next');">chevron_right</i>
                         </div>
                     </div>
                     <?php echo do_shortcode("[ic_add_posts tag='poapp' template='single_project_template.php' showposts='3']"); ?>
@@ -106,13 +106,13 @@
                 </div>
             </div>
             <div class="col s12 m12 l7">
-                <div class="carousel blue carousel-slider" data-indicators="true">
+                <div id="tinygu-carousel" class="carousel teal carousel-slider" data-indicators="true">
                 <div class="carousel-fixed-item right row">
                         <div class="col m1 offset-m10" style="background-color: rgba(255,255,255,0.7);">
-                            <i class="center material-icons waves-effect waves-light" onclick="$('.carousel').carousel('prev');">chevron_left</i>
+                            <i class="center material-icons waves-effect waves-light" onclick="$('#tinygu-carousel').carousel('prev');">chevron_left</i>
                         </div>
                         <div class="col m1" style="background-color: rgba(255,255,255,0.7);">
-                            <i class="center material-icons waves-effect waves-light" onclick="$('.carousel').carousel('next');">chevron_right</i>
+                            <i class="center material-icons waves-effect waves-light" onclick="$('#tinygu-carousel').carousel('next');">chevron_right</i>
                         </div>
                     </div>
                     <?php echo do_shortcode("[ic_add_posts tag='tinygu' template='single_project_template.php' showposts='3']"); ?>
@@ -141,13 +141,13 @@
                 </div>
             </div>
             <div class="col s12 m12 l7">
-                <div class="carousel blue carousel-slider" data-indicators="true">
+                <div id="edx-carousel" class="carousel red carousel-slider" data-indicators="true">
                 <div class="carousel-fixed-item right row">
                         <div class="col m1 offset-m10" style="background-color: rgba(255,255,255,0.7);">
-                            <i class="center material-icons waves-effect waves-light" onclick="$('.carousel').carousel('prev');">chevron_left</i>
+                            <i class="center material-icons waves-effect waves-light" onclick="$('#edx-carousel').carousel('prev');">chevron_left</i>
                         </div>
                         <div class="col m1" style="background-color: rgba(255,255,255,0.7);">
-                            <i class="center material-icons waves-effect waves-light" onclick="$('.carousel').carousel('next');">chevron_right</i>
+                            <i class="center material-icons waves-effect waves-light" onclick="$('#edx-carousel').carousel('next');">chevron_right</i>
                         </div>
                     </div>
                     <?php echo do_shortcode("[ic_add_posts tag='edx' template='single_project_template.php' showposts='3']"); ?>

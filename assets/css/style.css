@@ -5,7 +5,7 @@
 /* Mobile */
 @media only screen and (max-width: 600px) {
     .headline {
-        padding-top: 80px;
+        padding-top: 6vh;
     }
     
     .parallax-container {    

@@ -35,7 +35,7 @@ Neueste Beiträge
 
  <div class="card black-text" href="<?php the_permalink();?>" style="background-image: url(<?php the_post_thumbnail_url();?>); background-repeat: no-repeat; background-position: center; background-size: cover; overflow: hidden; display: inline-block;">
     <div class="row">
-        <div class="col s12 m7 offset-m5 l6 offset-l6" style="background-color: rgba(255,255,255,1); padding: 4vh;">
+        <div class="col s12 m7 offset-m5 l6 offset-l6" style="background-color: rgba(255,255,255,0.85); padding: 4vh;">
             <a class="black-text" href="<?php the_permalink()?>"><span class="card-title"><?php the_title();?></span></a>
             <span class="light single_project_excerpt"><?php the_excerpt(); ?></span>
             <br>
