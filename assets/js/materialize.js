@@ -1539,7 +1539,7 @@ if (jQuery) {
         });
       } else {
         // Hide the remaining content
-        $links.not($active).each(function () {
+        // $links.not($active).each(function () {
           $(Materialize.escapeHash(this.hash)).hide();
         });
       }

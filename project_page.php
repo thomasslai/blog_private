@@ -21,10 +21,10 @@
         <div class="row">
             <div class="col s12 m12 l5">
                 <div style="text-align: center">
-                    <div style="margin-bottom: 4vh;">
+                    <div style="margin-bottom: 3vh;">
                     <h3 class="thin">Ilias</h3>
                     </div>
-                    <div class="divider" style="margin: 3vh;"></div>
+                    <div class="divider" style="margin: 3vh;"> </div>
                     <div style="padding: 5vh;">
                     <span class="light">
                     Ilias ist der Name der Software, die die Basis unseres Elearning Portals darstellt. 
@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="col s12 m12 l7">
-                <div class="carousel blue carousel-slider" data-indicators="true">
+                <div class="carousel blue carousel-slider" data-indicators="true" duration="100">
                     <div class="carousel-fixed-item right row">
                         <div class="col m1 offset-m10" style="background-color: rgba(255,255,255,0.7);">
                             <i class="center material-icons waves-effect waves-light" onclick="$('.carousel').carousel('prev');">chevron_left</i>
