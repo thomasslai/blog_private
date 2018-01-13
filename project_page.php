@@ -15,6 +15,7 @@
 
 <div style="margin: 5vw;" >
 
+<!-- ILIAS -->
 <div class="card horizontal" style="margin-bottom: 6vh;">
 <div class="card-stacked" >
     <div class="card-content">
@@ -52,7 +53,7 @@
 </div>
 </div>
 
-
+<!-- POAPP -->
 <div class="card horizontal" style="margin-bottom: 6vh;">
 <div class="card-stacked" >
     <div class="card-content">
@@ -88,6 +89,7 @@
 </div>
 </div>
 
+<!-- TINYGU -->
 <div class="card horizontal" style="margin-bottom: 6vh;">
 <div class="card-stacked" >
     <div class="card-content">
@@ -123,6 +125,7 @@
 </div>
 </div>
 
+<!-- EDX -->
 <div class="card horizontal" style="margin-bottom: 6vh;">
 <div class="card-stacked" >
     <div class="card-content">
@@ -141,7 +144,7 @@
                 </div>
             </div>
             <div class="col s12 m12 l7">
-                <div id="edx-carousel" class="carousel red carousel-slider" data-indicators="true">
+                <div id="edx-carousel" class="carousel orange lighten-2 carousel-slider" data-indicators="true">
                 <div class="hide-on-small-only carousel-fixed-item right row">
                         <div class="col m1 offset-m10" style="background-color: rgba(255,255,255,0.7);">
                             <i class="center material-icons waves-effect waves-light" onclick="$('#edx-carousel').carousel('prev');">chevron_left</i>

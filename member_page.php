@@ -9,7 +9,7 @@
 </div>
 <div class="container" style="margin-bottom: 10vh;">
     <div class="card z-depth-3" style="width: 100%; margin-top: -35vh;">
-        <div class="container" style="padding-top: 10vh; padding-bottom: 10vh;">
+        <div style="padding: 10vh;">
         <div class="row">
         <div class="col l3">
             <img src="<?php bloginfo('template_url')?>/assets/images/HendrikEdelmann.jpg" class="responsive-img">
@@ -32,9 +32,6 @@
         </div>
     </div>
 </div>
-<h5>
-    <?php echo get_random_color() ?>
-</h5>
 
 
 <?php get_footer() ?>
