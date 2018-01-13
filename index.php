@@ -1,6 +1,4 @@
-<?php 
-get_header();
-?>
+<?php get_header(); ?>
 
 
 <!--TITELBILD-->
@@ -31,29 +29,27 @@ Neueste Beiträge
 </div>
 
 <div id="Main" class="col s12 m12 l9">
- <?php if (have_posts()) : while (have_posts()) : the_post(); ?>    
-
- <div class="card black-text" href="<?php the_permalink();?>" style="background-image: url(<?php the_post_thumbnail_url();?>); background-repeat: no-repeat; background-position: center; background-size: cover; overflow: hidden; display: inline-block;">
-    <div class="row">
-        <div class="col s12 m7 offset-m5 l6 offset-l6" style="background-color: rgba(255,255,255,0.85); padding: 4vh;">
-            <a class="black-text" href="<?php the_permalink()?>"><span class="card-title"><?php the_title();?></span></a>
-            <span class="light single_project_excerpt"><?php the_excerpt(); ?></span>
-            <br>
-            <a href="<?php the_permalink()?>"> mehr.. </a>
-            <br>
-            <br>
-            </span>
-            <div class="divider grey lighten-2" style="margin-bottom: 3vh;"></div>
-            <div style="padding: 1vh;">
-                <?php $post_tags = get_the_tags(); if ( $post_tags ) {
-                    foreach( $post_tags as $tag ) {
-                    echo '<div class="chip grey lighten-3"><a href="' . get_tag_link( $tag ) . '">' . $tag->name . '</a></div> '; 
-                        }
-                } ?>
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>   
+<!-- CARD -->
+    <div class="card-background card black-text <?php if(!has_post_thumbnail()) {echo get_random_color();}?>" href="<?php the_permalink();?>" style="<?php if (has_post_thumbnail()) {echo 'background-image: url('; echo the_post_thumbnail_url(); echo ');';} ?>">
+        <div class="row">
+            <div class="col s12 m7 offset-m5 l6 offset-l6" style="background-color: rgba(255,255,255,0.85); padding: 4vh;">
+                <a class="black-text" href="<?php the_permalink()?>"><span class="card-title"><?php the_title();?></span></a>
+                <span class="light single_project_excerpt"><?php the_excerpt(); ?></span>
+                <br>
+                <a href="<?php the_permalink()?>"> mehr.. </a>
+                <br><br>
+                <div class="divider grey lighten-2" style="margin-bottom: 3vh;"></div>
+                <div style="padding: 1vh;">
+                    <?php $post_tags = get_the_tags(); if ( $post_tags ) {
+                        foreach( $post_tags as $tag ) {
+                        echo '<div class="chip grey lighten-3" style="border-style: solid; border-width: 0.3px; border-color: #bdbdbd;"><a href="' . get_tag_link( $tag ) . '">' . $tag->name . '</a></div> '; 
+                            }
+                    } ?>
+                </div>
             </div>
         </div>
     </div>
-</div>
     <!-- END CARD -->
      <?php endwhile; endif; ?>  
 </div> 

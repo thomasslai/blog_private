@@ -36,7 +36,10 @@ Einzig nicht studentisches Mitglied in folgender Liste ist Professor Lüdde, der
 </span>
 <!-- Member Cards Display -->
 <div id="member_div" class="row">
-    <?php member_card('Hendrik', 'Edelmann', 18, 'Hier steht etwas über Hendrik'); ?>
+    <?php member_card('Hendrik', 'Edelmann', 18, 
+    'Absatz 1
+    <br>
+    Absatz 2'); ?>
 </div>
 
 </div>
