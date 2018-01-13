@@ -13,6 +13,10 @@
 
 <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/style.css" media="screen,projection">
 
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/slick/slick.css"/>
+
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/slick/slick-theme.css"/>
+
 </head>
 
 <body class="grey lighten-4" >

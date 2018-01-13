@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="col s12 m12 l7">
-                <div id="ilias-carousel" class="carousel blue darken-2 carousel-slider" data-indicators="true">
+                <div class="carousel blue darken-2 carousel-slider" data-indicators="true">
                     <div class="hide-on-small-only carousel-fixed-item right row">
                         <div class="col m1 offset-m10" style="background-color: rgba(255,255,255,0.7);">
                             <i class="center material-icons waves-effect waves-light" onclick="$('#ilias-carousel').carousel('prev');">chevron_left</i>

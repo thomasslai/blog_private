@@ -15,7 +15,7 @@ function member_card( $member_first_name, $member_last_name, $page_id, $member_d
     <span class="card-title activator grey-text text-darken-4">' . $member_first_name . ' ' . $member_last_name  . '<i class="material-icons right">more_vert</i></span>
     <p><a href="';
 
-    echo get_page_link( 18 );
+    echo get_page_link( $page_id );
 
     echo '">Mehr</a></p>
     </div>

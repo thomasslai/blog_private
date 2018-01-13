@@ -12,13 +12,15 @@
     </div>
 </footer>   
 
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/jquery-3.2.1.min.js"></script>
 
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/materialize.min.js"></script>
 
 <script type="text/javascript"></script>
 
 <script src="<?php bloginfo('template_url') ?>/assets/js/init.js"></script>
+
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/slick/slick.min.js"></script>
 
 </body>
 
