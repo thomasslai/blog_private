@@ -1,0 +1,112 @@
+@import "materialize.scss";
+
+// Fixed Sidenav shown
+
+.sidenav {
+  width: 280px;
+}
+
+main,
+footer,
+#nav-mobile {
+  padding-left: 280px;
+}
+
+main {
+  margin: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+  main,
+  footer,
+  #nav-mobile {
+    padding-left: 0;
+  }
+}
+
+#search-icon {
+  position: absolute;
+  right: 0;
+  margin-top: 9px;
+}
+
+#sidenav-content {
+  padding-top: 15px;
+}
+
+// .content {
+//   padding-top: 50px;
+//   padding-bottom: 50px;
+//   padding-left: 70px;
+//   padding-right: 70px;
+// }
+
+#searchbox {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+#s::placeholder {
+  color: color("grey", "darken-1");
+}
+input[type="text"]:not(.browser-default) {
+  border-bottom: 0px;
+  margin: 0px;
+}
+
+.tab {
+  float: right !important;
+}
+
+.no-uppercase {
+  text-transform: none;
+}
+
+footer {
+  bottom: 0;
+  margin-bottom: 0px;
+}
+
+.footer-copyright {
+  margin: 0;
+}
+
+.sidebar-li {
+  &:focus {
+    outline: 0;
+  }
+
+  display: flex;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  line-height: 1.5;
+  padding: 1rem;
+  background-color: $collapsible-header-color;
+  border-bottom: 1px solid $collapsible-border-color;
+
+  i {
+    width: 2rem;
+    font-size: 1.6rem;
+    display: inline-block;
+    text-align: center;
+    margin-right: 1rem;
+  }
+
+  background-color: transparent;
+  border: none;
+  line-height: inherit;
+  height: inherit;
+  padding: 0 $sidenav-padding;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  i {
+    line-height: inherit;
+  }
+}
+
+#logo-wrapper {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
